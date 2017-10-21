@@ -14,6 +14,7 @@
 		2F143A471F9B014F00098059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A451F9B014F00098059 /* LaunchScreen.storyboard */; };
 		2F143A521F9B014F00098059 /* PixabayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F143A511F9B014F00098059 /* PixabayTests.swift */; };
 		2F143A5D1F9B014F00098059 /* PixabayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F143A5C1F9B014F00098059 /* PixabayUITests.swift */; };
+		D0D784DCD2EED278212CF89D /* Pods_Pixabay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		2F143A581F9B014F00098059 /* PixabayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F143A5C1F9B014F00098059 /* PixabayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayUITests.swift; sourceTree = "<group>"; };
 		2F143A5E1F9B014F00098059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.release.xcconfig"; sourceTree = "<group>"; };
+		72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixabay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D784DCD2EED278212CF89D /* Pods_Pixabay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				2F143A501F9B014F00098059 /* PixabayTests */,
 				2F143A5B1F9B014F00098059 /* PixabayUITests */,
 				2F143A3A1F9B014E00098059 /* Products */,
+				5747C87A57DA961CCF10604F /* Pods */,
+				91D0A5F933C273581520D65D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = PixabayUITests;
 			sourceTree = "<group>";
 		};
+		5747C87A57DA961CCF10604F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */,
+				3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91D0A5F933C273581520D65D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F143A611F9B014F00098059 /* Build configuration list for PBXNativeTarget "Pixabay" */;
 			buildPhases = (
+				A38510D13D1FBE362DB7FF4D /* [CP] Check Pods Manifest.lock */,
 				2F143A351F9B014E00098059 /* Sources */,
 				2F143A361F9B014E00098059 /* Frameworks */,
 				2F143A371F9B014E00098059 /* Resources */,
+				5F3832CCB205EFBE90126A01 /* [CP] Embed Pods Frameworks */,
+				2C07FFE30D770E6A716BF7A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C07FFE30D770E6A716BF7A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3832CCB205EFBE90126A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38510D13D1FBE362DB7FF4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F143A351F9B014E00098059 /* Sources */ = {
@@ -424,6 +499,7 @@
 		};
 		2F143A621F9B014F00098059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +514,7 @@
 		};
 		2F143A631F9B014F00098059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

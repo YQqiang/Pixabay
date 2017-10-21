@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Kanna (2.2.1)
+  - Kingfisher (4.1.1)
+  - Moya/Core (9.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (9.0.0):
+    - Moya/Core
+    - RxSwift (~> 3.3)
+  - ObjectMapper (3.0.0)
+  - Result (3.2.4)
+  - Reveal-SDK (4)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Kanna
+  - Kingfisher
+  - Moya/RxSwift
+  - ObjectMapper
+  - Reveal-SDK (~> 4)
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Kanna: 182789ab065e8f9a6ccc2a74ce6283d3401c0c4a
+  Kingfisher: 6793a473357b5dbee42b0068ef203fe8325f259e
+  Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: ee0e35c68a4575fd2c56e9e54ec4cdff173b230c
+
+COCOAPODS: 1.2.0
