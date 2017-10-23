@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F143A3D1F9B014F00098059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F143A3C1F9B014F00098059 /* AppDelegate.swift */; };
-		2F143A3F1F9B014F00098059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F143A3E1F9B014F00098059 /* ViewController.swift */; };
 		2F143A421F9B014F00098059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A401F9B014F00098059 /* Main.storyboard */; };
 		2F143A441F9B014F00098059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A431F9B014F00098059 /* Assets.xcassets */; };
 		2F143A471F9B014F00098059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A451F9B014F00098059 /* LaunchScreen.storyboard */; };
@@ -36,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		2F143A391F9B014E00098059 /* Pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F143A3C1F9B014F00098059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F143A3E1F9B014F00098059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F143A411F9B014F00098059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F143A431F9B014F00098059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F143A461F9B014F00098059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +44,8 @@
 		2F143A581F9B014F00098059 /* PixabayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F143A5C1F9B014F00098059 /* PixabayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayUITests.swift; sourceTree = "<group>"; };
 		2F143A5E1F9B014F00098059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF3EB511F9D9E2600C61810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FF3EB521F9D9E2600C61810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.release.xcconfig"; sourceTree = "<group>"; };
 		72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixabay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,8 +102,11 @@
 		2F143A3B1F9B014F00098059 /* Pixabay */ = {
 			isa = PBXGroup;
 			children = (
-				2F143A3C1F9B014F00098059 /* AppDelegate.swift */,
-				2F143A3E1F9B014F00098059 /* ViewController.swift */,
+				2FF3EB501F9D9E2600C61810 /* Main */,
+				2FF3EB531F9D9E2600C61810 /* Base */,
+				2FF3EB4B1F9D9E2600C61810 /* MVVM */,
+				2FF3EB4F1F9D9E2600C61810 /* Extension */,
+				2FF3EB4A1F9D9E2600C61810 /* Tools */,
 				2F143A401F9B014F00098059 /* Main.storyboard */,
 				2F143A431F9B014F00098059 /* Assets.xcassets */,
 				2F143A451F9B014F00098059 /* LaunchScreen.storyboard */,
@@ -130,6 +131,67 @@
 				2F143A5E1F9B014F00098059 /* Info.plist */,
 			);
 			path = PixabayUITests;
+			sourceTree = "<group>";
+		};
+		2FF3EB4A1F9D9E2600C61810 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2FF3EB4B1F9D9E2600C61810 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				2FF3EB4C1F9D9E2600C61810 /* Model */,
+				2FF3EB4D1F9D9E2600C61810 /* View */,
+				2FF3EB4E1F9D9E2600C61810 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		2FF3EB4C1F9D9E2600C61810 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FF3EB4D1F9D9E2600C61810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2FF3EB4E1F9D9E2600C61810 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2FF3EB4F1F9D9E2600C61810 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2FF3EB501F9D9E2600C61810 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2FF3EB511F9D9E2600C61810 /* AppDelegate.swift */,
+				2FF3EB521F9D9E2600C61810 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2FF3EB531F9D9E2600C61810 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		5747C87A57DA961CCF10604F /* Pods */ = {
@@ -334,8 +396,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F143A3F1F9B014F00098059 /* ViewController.swift in Sources */,
-				2F143A3D1F9B014F00098059 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +592,6 @@
 		2F143A651F9B014F00098059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayTests/Info.plist;
@@ -548,7 +607,6 @@
 		2F143A661F9B014F00098059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayTests/Info.plist;
@@ -564,7 +622,6 @@
 		2F143A681F9B014F00098059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -579,7 +636,6 @@
 		2F143A691F9B014F00098059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
