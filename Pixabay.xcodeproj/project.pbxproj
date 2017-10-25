@@ -14,6 +14,9 @@
 		2F44C2C71FA01F0500E4D30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44C2C51FA01F0500E4D30B /* LaunchScreen.storyboard */; };
 		2F44C2D21FA01F0600E4D30B /* PixabayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2D11FA01F0600E4D30B /* PixabayTests.swift */; };
 		2F44C2DD1FA01F0600E4D30B /* PixabayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2DC1FA01F0600E4D30B /* PixabayUITests.swift */; };
+		2F44C3041FA0328900E4D30B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C3031FA0328900E4D30B /* BaseViewController.swift */; };
+		2F44C3061FA032B500E4D30B /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C3051FA032B500E4D30B /* BaseNavigationController.swift */; };
+		2F44C30C1FA0355300E4D30B /* UIColor(Extension).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C30B1FA0346200E4D30B /* UIColor(Extension).swift */; };
 		B6046B76E3AD9B00A8CDB59E /* Pods_Pixabay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D2E58847CB2C895319C245 /* Pods_Pixabay.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,9 @@
 		2F44C2D81FA01F0600E4D30B /* PixabayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F44C2DC1FA01F0600E4D30B /* PixabayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayUITests.swift; sourceTree = "<group>"; };
 		2F44C2DE1FA01F0600E4D30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F44C3031FA0328900E4D30B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2F44C3051FA032B500E4D30B /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		2F44C30B1FA0346200E4D30B /* UIColor(Extension).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor(Extension).swift"; sourceTree = "<group>"; };
 		6675B320690949F41A913FF3 /* Pods-Pixabay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.debug.xcconfig"; sourceTree = "<group>"; };
 		B6D2E58847CB2C895319C245 /* Pods_Pixabay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixabay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB9B4C132E6828C632E046E /* Pods-Pixabay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +189,8 @@
 		2F44C3001FA030DB00E4D30B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				2F44C3031FA0328900E4D30B /* BaseViewController.swift */,
+				2F44C3051FA032B500E4D30B /* BaseNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -201,8 +209,17 @@
 		2F44C3021FA030DC00E4D30B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2F44C30A1FA0346200E4D30B /* Extension */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		2F44C30A1FA0346200E4D30B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F44C30B1FA0346200E4D30B /* UIColor(Extension).swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A1A2BBB2BE09F370ECC6B9C7 /* Frameworks */ = {
@@ -398,8 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F44C3061FA032B500E4D30B /* BaseNavigationController.swift in Sources */,
+				2F44C30C1FA0355300E4D30B /* UIColor(Extension).swift in Sources */,
 				2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */,
 				2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */,
+				2F44C3041FA0328900E4D30B /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
