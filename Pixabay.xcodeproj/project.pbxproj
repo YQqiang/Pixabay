@@ -7,67 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F143A421F9B014F00098059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A401F9B014F00098059 /* Main.storyboard */; };
-		2F143A441F9B014F00098059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A431F9B014F00098059 /* Assets.xcassets */; };
-		2F143A471F9B014F00098059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F143A451F9B014F00098059 /* LaunchScreen.storyboard */; };
-		2F143A521F9B014F00098059 /* PixabayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F143A511F9B014F00098059 /* PixabayTests.swift */; };
-		2F143A5D1F9B014F00098059 /* PixabayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F143A5C1F9B014F00098059 /* PixabayUITests.swift */; };
-		D0D784DCD2EED278212CF89D /* Pods_Pixabay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */; };
+		2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */; };
+		2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2BE1FA01F0500E4D30B /* ViewController.swift */; };
+		2F44C2C21FA01F0500E4D30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44C2C01FA01F0500E4D30B /* Main.storyboard */; };
+		2F44C2C41FA01F0500E4D30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F44C2C31FA01F0500E4D30B /* Assets.xcassets */; };
+		2F44C2C71FA01F0500E4D30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44C2C51FA01F0500E4D30B /* LaunchScreen.storyboard */; };
+		2F44C2D21FA01F0600E4D30B /* PixabayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2D11FA01F0600E4D30B /* PixabayTests.swift */; };
+		2F44C2DD1FA01F0600E4D30B /* PixabayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2DC1FA01F0600E4D30B /* PixabayUITests.swift */; };
+		B6046B76E3AD9B00A8CDB59E /* Pods_Pixabay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D2E58847CB2C895319C245 /* Pods_Pixabay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F143A4E1F9B014F00098059 /* PBXContainerItemProxy */ = {
+		2F44C2CE1FA01F0600E4D30B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F143A311F9B014E00098059 /* Project object */;
+			containerPortal = 2F44C2B11FA01F0500E4D30B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F143A381F9B014E00098059;
+			remoteGlobalIDString = 2F44C2B81FA01F0500E4D30B;
 			remoteInfo = Pixabay;
 		};
-		2F143A591F9B014F00098059 /* PBXContainerItemProxy */ = {
+		2F44C2D91FA01F0600E4D30B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F143A311F9B014E00098059 /* Project object */;
+			containerPortal = 2F44C2B11FA01F0500E4D30B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F143A381F9B014E00098059;
+			remoteGlobalIDString = 2F44C2B81FA01F0500E4D30B;
 			remoteInfo = Pixabay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F143A391F9B014E00098059 /* Pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F143A411F9B014F00098059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F143A431F9B014F00098059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F143A461F9B014F00098059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2F143A481F9B014F00098059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F143A4D1F9B014F00098059 /* PixabayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F143A511F9B014F00098059 /* PixabayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayTests.swift; sourceTree = "<group>"; };
-		2F143A531F9B014F00098059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F143A581F9B014F00098059 /* PixabayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F143A5C1F9B014F00098059 /* PixabayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayUITests.swift; sourceTree = "<group>"; };
-		2F143A5E1F9B014F00098059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FF3EB511F9D9E2600C61810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FF3EB521F9D9E2600C61810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.release.xcconfig"; sourceTree = "<group>"; };
-		72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixabay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.debug.xcconfig"; sourceTree = "<group>"; };
+		2F44C2B91FA01F0500E4D30B /* Pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F44C2BE1FA01F0500E4D30B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F44C2C11FA01F0500E4D30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F44C2C31FA01F0500E4D30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F44C2C61FA01F0500E4D30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F44C2C81FA01F0500E4D30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F44C2CD1FA01F0600E4D30B /* PixabayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F44C2D11FA01F0600E4D30B /* PixabayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayTests.swift; sourceTree = "<group>"; };
+		2F44C2D31FA01F0600E4D30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F44C2D81FA01F0600E4D30B /* PixabayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F44C2DC1FA01F0600E4D30B /* PixabayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayUITests.swift; sourceTree = "<group>"; };
+		2F44C2DE1FA01F0600E4D30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6675B320690949F41A913FF3 /* Pods-Pixabay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D2E58847CB2C895319C245 /* Pods_Pixabay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixabay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB9B4C132E6828C632E046E /* Pods-Pixabay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixabay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F143A361F9B014E00098059 /* Frameworks */ = {
+		2F44C2B61FA01F0500E4D30B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D784DCD2EED278212CF89D /* Pods_Pixabay.framework in Frameworks */,
+				B6046B76E3AD9B00A8CDB59E /* Pods_Pixabay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F143A4A1F9B014F00098059 /* Frameworks */ = {
+		2F44C2CA1FA01F0600E4D30B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F143A551F9B014F00098059 /* Frameworks */ = {
+		2F44C2D51FA01F0600E4D30B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,136 +79,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F143A301F9B014E00098059 = {
+		20004E84FEB1B6E1BE37459F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F143A3B1F9B014F00098059 /* Pixabay */,
-				2F143A501F9B014F00098059 /* PixabayTests */,
-				2F143A5B1F9B014F00098059 /* PixabayUITests */,
-				2F143A3A1F9B014E00098059 /* Products */,
-				5747C87A57DA961CCF10604F /* Pods */,
-				91D0A5F933C273581520D65D /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		2F143A3A1F9B014E00098059 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F143A391F9B014E00098059 /* Pixabay.app */,
-				2F143A4D1F9B014F00098059 /* PixabayTests.xctest */,
-				2F143A581F9B014F00098059 /* PixabayUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2F143A3B1F9B014F00098059 /* Pixabay */ = {
-			isa = PBXGroup;
-			children = (
-				2FF3EB501F9D9E2600C61810 /* Main */,
-				2FF3EB531F9D9E2600C61810 /* Base */,
-				2FF3EB4B1F9D9E2600C61810 /* MVVM */,
-				2FF3EB4F1F9D9E2600C61810 /* Extension */,
-				2FF3EB4A1F9D9E2600C61810 /* Tools */,
-				2F143A401F9B014F00098059 /* Main.storyboard */,
-				2F143A431F9B014F00098059 /* Assets.xcassets */,
-				2F143A451F9B014F00098059 /* LaunchScreen.storyboard */,
-				2F143A481F9B014F00098059 /* Info.plist */,
-			);
-			path = Pixabay;
-			sourceTree = "<group>";
-		};
-		2F143A501F9B014F00098059 /* PixabayTests */ = {
-			isa = PBXGroup;
-			children = (
-				2F143A511F9B014F00098059 /* PixabayTests.swift */,
-				2F143A531F9B014F00098059 /* Info.plist */,
-			);
-			path = PixabayTests;
-			sourceTree = "<group>";
-		};
-		2F143A5B1F9B014F00098059 /* PixabayUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2F143A5C1F9B014F00098059 /* PixabayUITests.swift */,
-				2F143A5E1F9B014F00098059 /* Info.plist */,
-			);
-			path = PixabayUITests;
-			sourceTree = "<group>";
-		};
-		2FF3EB4A1F9D9E2600C61810 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		2FF3EB4B1F9D9E2600C61810 /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				2FF3EB4C1F9D9E2600C61810 /* Model */,
-				2FF3EB4D1F9D9E2600C61810 /* View */,
-				2FF3EB4E1F9D9E2600C61810 /* ViewModel */,
-			);
-			path = MVVM;
-			sourceTree = "<group>";
-		};
-		2FF3EB4C1F9D9E2600C61810 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2FF3EB4D1F9D9E2600C61810 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2FF3EB4E1F9D9E2600C61810 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		2FF3EB4F1F9D9E2600C61810 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		2FF3EB501F9D9E2600C61810 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				2FF3EB511F9D9E2600C61810 /* AppDelegate.swift */,
-				2FF3EB521F9D9E2600C61810 /* ViewController.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		2FF3EB531F9D9E2600C61810 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		5747C87A57DA961CCF10604F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */,
-				3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */,
+				6675B320690949F41A913FF3 /* Pods-Pixabay.debug.xcconfig */,
+				FCB9B4C132E6828C632E046E /* Pods-Pixabay.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		91D0A5F933C273581520D65D /* Frameworks */ = {
+		2F44C2B01FA01F0500E4D30B = {
 			isa = PBXGroup;
 			children = (
-				72D28A2BC50B6DADFBCA0E38 /* Pods_Pixabay.framework */,
+				2F44C2BB1FA01F0500E4D30B /* Pixabay */,
+				2F44C2D01FA01F0600E4D30B /* PixabayTests */,
+				2F44C2DB1FA01F0600E4D30B /* PixabayUITests */,
+				2F44C2BA1FA01F0500E4D30B /* Products */,
+				20004E84FEB1B6E1BE37459F /* Pods */,
+				A1A2BBB2BE09F370ECC6B9C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F44C2BA1FA01F0500E4D30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F44C2B91FA01F0500E4D30B /* Pixabay.app */,
+				2F44C2CD1FA01F0600E4D30B /* PixabayTests.xctest */,
+				2F44C2D81FA01F0600E4D30B /* PixabayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F44C2BB1FA01F0500E4D30B /* Pixabay */ = {
+			isa = PBXGroup;
+			children = (
+				2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */,
+				2F44C2BE1FA01F0500E4D30B /* ViewController.swift */,
+				2F44C2C01FA01F0500E4D30B /* Main.storyboard */,
+				2F44C2C31FA01F0500E4D30B /* Assets.xcassets */,
+				2F44C2C51FA01F0500E4D30B /* LaunchScreen.storyboard */,
+				2F44C2C81FA01F0500E4D30B /* Info.plist */,
+			);
+			path = Pixabay;
+			sourceTree = "<group>";
+		};
+		2F44C2D01FA01F0600E4D30B /* PixabayTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F44C2D11FA01F0600E4D30B /* PixabayTests.swift */,
+				2F44C2D31FA01F0600E4D30B /* Info.plist */,
+			);
+			path = PixabayTests;
+			sourceTree = "<group>";
+		};
+		2F44C2DB1FA01F0600E4D30B /* PixabayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F44C2DC1FA01F0600E4D30B /* PixabayUITests.swift */,
+				2F44C2DE1FA01F0600E4D30B /* Info.plist */,
+			);
+			path = PixabayUITests;
+			sourceTree = "<group>";
+		};
+		A1A2BBB2BE09F370ECC6B9C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D2E58847CB2C895319C245 /* Pods_Pixabay.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,16 +152,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F143A381F9B014E00098059 /* Pixabay */ = {
+		2F44C2B81FA01F0500E4D30B /* Pixabay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F143A611F9B014F00098059 /* Build configuration list for PBXNativeTarget "Pixabay" */;
+			buildConfigurationList = 2F44C2E11FA01F0600E4D30B /* Build configuration list for PBXNativeTarget "Pixabay" */;
 			buildPhases = (
-				A38510D13D1FBE362DB7FF4D /* [CP] Check Pods Manifest.lock */,
-				2F143A351F9B014E00098059 /* Sources */,
-				2F143A361F9B014E00098059 /* Frameworks */,
-				2F143A371F9B014E00098059 /* Resources */,
-				5F3832CCB205EFBE90126A01 /* [CP] Embed Pods Frameworks */,
-				2C07FFE30D770E6A716BF7A5 /* [CP] Copy Pods Resources */,
+				F29DB7E917C6B985B2CD34C6 /* [CP] Check Pods Manifest.lock */,
+				2F44C2B51FA01F0500E4D30B /* Sources */,
+				2F44C2B61FA01F0500E4D30B /* Frameworks */,
+				2F44C2B71FA01F0500E4D30B /* Resources */,
+				5AEB9D7CCCE8AE227D8AF7D1 /* [CP] Embed Pods Frameworks */,
+				FA71DB7A0F77678690C476DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,72 +169,72 @@
 			);
 			name = Pixabay;
 			productName = Pixabay;
-			productReference = 2F143A391F9B014E00098059 /* Pixabay.app */;
+			productReference = 2F44C2B91FA01F0500E4D30B /* Pixabay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F143A4C1F9B014F00098059 /* PixabayTests */ = {
+		2F44C2CC1FA01F0600E4D30B /* PixabayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F143A641F9B014F00098059 /* Build configuration list for PBXNativeTarget "PixabayTests" */;
+			buildConfigurationList = 2F44C2E41FA01F0600E4D30B /* Build configuration list for PBXNativeTarget "PixabayTests" */;
 			buildPhases = (
-				2F143A491F9B014F00098059 /* Sources */,
-				2F143A4A1F9B014F00098059 /* Frameworks */,
-				2F143A4B1F9B014F00098059 /* Resources */,
+				2F44C2C91FA01F0600E4D30B /* Sources */,
+				2F44C2CA1FA01F0600E4D30B /* Frameworks */,
+				2F44C2CB1FA01F0600E4D30B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2F143A4F1F9B014F00098059 /* PBXTargetDependency */,
+				2F44C2CF1FA01F0600E4D30B /* PBXTargetDependency */,
 			);
 			name = PixabayTests;
 			productName = PixabayTests;
-			productReference = 2F143A4D1F9B014F00098059 /* PixabayTests.xctest */;
+			productReference = 2F44C2CD1FA01F0600E4D30B /* PixabayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2F143A571F9B014F00098059 /* PixabayUITests */ = {
+		2F44C2D71FA01F0600E4D30B /* PixabayUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F143A671F9B014F00098059 /* Build configuration list for PBXNativeTarget "PixabayUITests" */;
+			buildConfigurationList = 2F44C2E71FA01F0600E4D30B /* Build configuration list for PBXNativeTarget "PixabayUITests" */;
 			buildPhases = (
-				2F143A541F9B014F00098059 /* Sources */,
-				2F143A551F9B014F00098059 /* Frameworks */,
-				2F143A561F9B014F00098059 /* Resources */,
+				2F44C2D41FA01F0600E4D30B /* Sources */,
+				2F44C2D51FA01F0600E4D30B /* Frameworks */,
+				2F44C2D61FA01F0600E4D30B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2F143A5A1F9B014F00098059 /* PBXTargetDependency */,
+				2F44C2DA1FA01F0600E4D30B /* PBXTargetDependency */,
 			);
 			name = PixabayUITests;
 			productName = PixabayUITests;
-			productReference = 2F143A581F9B014F00098059 /* PixabayUITests.xctest */;
+			productReference = 2F44C2D81FA01F0600E4D30B /* PixabayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F143A311F9B014E00098059 /* Project object */ = {
+		2F44C2B11FA01F0500E4D30B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = yuqiangcoder;
 				TargetAttributes = {
-					2F143A381F9B014E00098059 = {
+					2F44C2B81FA01F0500E4D30B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					2F143A4C1F9B014F00098059 = {
+					2F44C2CC1FA01F0600E4D30B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 2F143A381F9B014E00098059;
+						TestTargetID = 2F44C2B81FA01F0500E4D30B;
 					};
-					2F143A571F9B014F00098059 = {
+					2F44C2D71FA01F0600E4D30B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 2F143A381F9B014E00098059;
+						TestTargetID = 2F44C2B81FA01F0500E4D30B;
 					};
 				};
 			};
-			buildConfigurationList = 2F143A341F9B014E00098059 /* Build configuration list for PBXProject "Pixabay" */;
+			buildConfigurationList = 2F44C2B41FA01F0500E4D30B /* Build configuration list for PBXProject "Pixabay" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -304,37 +242,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2F143A301F9B014E00098059;
-			productRefGroup = 2F143A3A1F9B014E00098059 /* Products */;
+			mainGroup = 2F44C2B01FA01F0500E4D30B;
+			productRefGroup = 2F44C2BA1FA01F0500E4D30B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F143A381F9B014E00098059 /* Pixabay */,
-				2F143A4C1F9B014F00098059 /* PixabayTests */,
-				2F143A571F9B014F00098059 /* PixabayUITests */,
+				2F44C2B81FA01F0500E4D30B /* Pixabay */,
+				2F44C2CC1FA01F0600E4D30B /* PixabayTests */,
+				2F44C2D71FA01F0600E4D30B /* PixabayUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F143A371F9B014E00098059 /* Resources */ = {
+		2F44C2B71FA01F0500E4D30B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F143A471F9B014F00098059 /* LaunchScreen.storyboard in Resources */,
-				2F143A441F9B014F00098059 /* Assets.xcassets in Resources */,
-				2F143A421F9B014F00098059 /* Main.storyboard in Resources */,
+				2F44C2C71FA01F0500E4D30B /* LaunchScreen.storyboard in Resources */,
+				2F44C2C41FA01F0500E4D30B /* Assets.xcassets in Resources */,
+				2F44C2C21FA01F0500E4D30B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F143A4B1F9B014F00098059 /* Resources */ = {
+		2F44C2CB1FA01F0600E4D30B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F143A561F9B014F00098059 /* Resources */ = {
+		2F44C2D61FA01F0600E4D30B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,22 +282,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C07FFE30D770E6A716BF7A5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F3832CCB205EFBE90126A01 /* [CP] Embed Pods Frameworks */ = {
+		5AEB9D7CCCE8AE227D8AF7D1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,7 +297,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A38510D13D1FBE362DB7FF4D /* [CP] Check Pods Manifest.lock */ = {
+		F29DB7E917C6B985B2CD34C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,60 +312,77 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FA71DB7A0F77678690C476DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixabay/Pods-Pixabay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F143A351F9B014E00098059 /* Sources */ = {
+		2F44C2B51FA01F0500E4D30B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */,
+				2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F143A491F9B014F00098059 /* Sources */ = {
+		2F44C2C91FA01F0600E4D30B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F143A521F9B014F00098059 /* PixabayTests.swift in Sources */,
+				2F44C2D21FA01F0600E4D30B /* PixabayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F143A541F9B014F00098059 /* Sources */ = {
+		2F44C2D41FA01F0600E4D30B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F143A5D1F9B014F00098059 /* PixabayUITests.swift in Sources */,
+				2F44C2DD1FA01F0600E4D30B /* PixabayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F143A4F1F9B014F00098059 /* PBXTargetDependency */ = {
+		2F44C2CF1FA01F0600E4D30B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F143A381F9B014E00098059 /* Pixabay */;
-			targetProxy = 2F143A4E1F9B014F00098059 /* PBXContainerItemProxy */;
+			target = 2F44C2B81FA01F0500E4D30B /* Pixabay */;
+			targetProxy = 2F44C2CE1FA01F0600E4D30B /* PBXContainerItemProxy */;
 		};
-		2F143A5A1F9B014F00098059 /* PBXTargetDependency */ = {
+		2F44C2DA1FA01F0600E4D30B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F143A381F9B014E00098059 /* Pixabay */;
-			targetProxy = 2F143A591F9B014F00098059 /* PBXContainerItemProxy */;
+			target = 2F44C2B81FA01F0500E4D30B /* Pixabay */;
+			targetProxy = 2F44C2D91FA01F0600E4D30B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F143A401F9B014F00098059 /* Main.storyboard */ = {
+		2F44C2C01FA01F0500E4D30B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F143A411F9B014F00098059 /* Base */,
+				2F44C2C11FA01F0500E4D30B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2F143A451F9B014F00098059 /* LaunchScreen.storyboard */ = {
+		2F44C2C51FA01F0500E4D30B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F143A461F9B014F00098059 /* Base */,
+				2F44C2C61FA01F0500E4D30B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -450,7 +390,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2F143A5F1F9B014F00098059 /* Debug */ = {
+		2F44C2DF1FA01F0600E4D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -507,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		2F143A601F9B014F00098059 /* Release */ = {
+		2F44C2E01FA01F0600E4D30B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -557,13 +497,12 @@
 			};
 			name = Release;
 		};
-		2F143A621F9B014F00098059 /* Debug */ = {
+		2F44C2E21FA01F0600E4D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBB33336657ED802E16DC24B /* Pods-Pixabay.debug.xcconfig */;
+			baseConfigurationReference = 6675B320690949F41A913FF3 /* Pods-Pixabay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FTYJBY2LP3;
 				INFOPLIST_FILE = Pixabay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuqiangcoder.Pixabay;
@@ -573,13 +512,12 @@
 			};
 			name = Debug;
 		};
-		2F143A631F9B014F00098059 /* Release */ = {
+		2F44C2E31FA01F0600E4D30B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3556D8E38BF806316E2AB8E7 /* Pods-Pixabay.release.xcconfig */;
+			baseConfigurationReference = FCB9B4C132E6828C632E046E /* Pods-Pixabay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FTYJBY2LP3;
 				INFOPLIST_FILE = Pixabay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuqiangcoder.Pixabay;
@@ -589,9 +527,10 @@
 			};
 			name = Release;
 		};
-		2F143A651F9B014F00098059 /* Debug */ = {
+		2F44C2E51FA01F0600E4D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayTests/Info.plist;
@@ -604,9 +543,10 @@
 			};
 			name = Debug;
 		};
-		2F143A661F9B014F00098059 /* Release */ = {
+		2F44C2E61FA01F0600E4D30B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayTests/Info.plist;
@@ -619,9 +559,10 @@
 			};
 			name = Release;
 		};
-		2F143A681F9B014F00098059 /* Debug */ = {
+		2F44C2E81FA01F0600E4D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -633,9 +574,10 @@
 			};
 			name = Debug;
 		};
-		2F143A691F9B014F00098059 /* Release */ = {
+		2F44C2E91FA01F0600E4D30B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PixabayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -650,43 +592,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F143A341F9B014E00098059 /* Build configuration list for PBXProject "Pixabay" */ = {
+		2F44C2B41FA01F0500E4D30B /* Build configuration list for PBXProject "Pixabay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F143A5F1F9B014F00098059 /* Debug */,
-				2F143A601F9B014F00098059 /* Release */,
+				2F44C2DF1FA01F0600E4D30B /* Debug */,
+				2F44C2E01FA01F0600E4D30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F143A611F9B014F00098059 /* Build configuration list for PBXNativeTarget "Pixabay" */ = {
+		2F44C2E11FA01F0600E4D30B /* Build configuration list for PBXNativeTarget "Pixabay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F143A621F9B014F00098059 /* Debug */,
-				2F143A631F9B014F00098059 /* Release */,
+				2F44C2E21FA01F0600E4D30B /* Debug */,
+				2F44C2E31FA01F0600E4D30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F143A641F9B014F00098059 /* Build configuration list for PBXNativeTarget "PixabayTests" */ = {
+		2F44C2E41FA01F0600E4D30B /* Build configuration list for PBXNativeTarget "PixabayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F143A651F9B014F00098059 /* Debug */,
-				2F143A661F9B014F00098059 /* Release */,
+				2F44C2E51FA01F0600E4D30B /* Debug */,
+				2F44C2E61FA01F0600E4D30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F143A671F9B014F00098059 /* Build configuration list for PBXNativeTarget "PixabayUITests" */ = {
+		2F44C2E71FA01F0600E4D30B /* Build configuration list for PBXNativeTarget "PixabayUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F143A681F9B014F00098059 /* Debug */,
-				2F143A691F9B014F00098059 /* Release */,
+				2F44C2E81FA01F0600E4D30B /* Debug */,
+				2F44C2E91FA01F0600E4D30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F143A311F9B014E00098059 /* Project object */;
+	rootObject = 2F44C2B11FA01F0500E4D30B /* Project object */;
 }
