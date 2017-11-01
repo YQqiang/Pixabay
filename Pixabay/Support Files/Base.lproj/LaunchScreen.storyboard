@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,13 +17,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YUQIANGCODER.COM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQo-xa-Hc6">
+                                <rect key="frame" x="80.5" y="597.5" width="215.5" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="p76-MJ-0uv">
+                                <rect key="frame" x="100" y="100" width="175" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="p76-MJ-0uv" secondAttribute="height" multiplier="1:1" id="Oea-Mf-Fr9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pixabay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJD-Hz-d2H">
+                                <rect key="frame" x="137.5" y="307" width="101.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.046047896146774292" green="0.69516056776046753" blue="0.89540928602218628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gQo-xa-Hc6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1RS-5B-qj4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p76-MJ-0uv" secondAttribute="trailing" constant="100" id="4DE-2V-iYz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gQo-xa-Hc6" secondAttribute="bottom" constant="44" id="Km2-s5-7Ah"/>
+                            <constraint firstItem="cJD-Hz-d2H" firstAttribute="top" secondItem="p76-MJ-0uv" secondAttribute="bottom" constant="32" id="cqE-Es-g0b"/>
+                            <constraint firstItem="cJD-Hz-d2H" firstAttribute="centerX" secondItem="p76-MJ-0uv" secondAttribute="centerX" id="khP-Dm-gmc"/>
+                            <constraint firstItem="p76-MJ-0uv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="oaA-Qd-yvO"/>
+                            <constraint firstItem="p76-MJ-0uv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tIw-zM-V8b"/>
+                            <constraint firstItem="p76-MJ-0uv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="u4n-dp-YhJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launchIcon" width="91" height="91"/>
+    </resources>
 </document>

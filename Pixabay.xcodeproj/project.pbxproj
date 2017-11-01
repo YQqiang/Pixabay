@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F435B3B1FA9ECAD00CA2498 /* IBVar(Extension).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435B3A1FA9ECAD00CA2498 /* IBVar(Extension).swift */; };
 		2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */; };
 		2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2BE1FA01F0500E4D30B /* ViewController.swift */; };
 		2F44C2C21FA01F0500E4D30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44C2C01FA01F0500E4D30B /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F435B3A1FA9ECAD00CA2498 /* IBVar(Extension).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBVar(Extension).swift"; sourceTree = "<group>"; };
 		2F44C2B91FA01F0500E4D30B /* Pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F44C2BE1FA01F0500E4D30B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			children = (
 				2F44C30B1FA0346200E4D30B /* UIColor(Extension).swift */,
 				2F44C3111FA0AC0300E4D30B /* UIImage(Extension).swift */,
+				2F435B3A1FA9ECAD00CA2498 /* IBVar(Extension).swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */,
 				2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */,
 				2F44C3121FA0AC0300E4D30B /* UIImage(Extension).swift in Sources */,
+				2F435B3B1FA9ECAD00CA2498 /* IBVar(Extension).swift in Sources */,
 				2F44C3041FA0328900E4D30B /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
