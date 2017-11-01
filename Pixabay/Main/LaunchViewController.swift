@@ -1,5 +1,5 @@
 //
-//  BaseViewController.swift
+//  LaunchViewController.swift
 //  Pixabay
 //
 //  Created by sungrow on 2017/10/25.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class LaunchViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // 设置App底色
-        view.backgroundColor = UIColor.ground
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
