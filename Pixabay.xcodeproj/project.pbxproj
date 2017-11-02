@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F24B9251FAAA3E300245358 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24B9241FAAA3E300245358 /* API.swift */; };
+		2F24B9271FAABC1A00245358 /* CommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24B9261FAABC1A00245358 /* CommonEnum.swift */; };
 		2F435B3B1FA9ECAD00CA2498 /* IBVar(Extension).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435B3A1FA9ECAD00CA2498 /* IBVar(Extension).swift */; };
 		2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */; };
 		2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44C2BE1FA01F0500E4D30B /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		2F24B9241FAAA3E300245358 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2F24B9261FAABC1A00245358 /* CommonEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEnum.swift; sourceTree = "<group>"; };
 		2F435B3A1FA9ECAD00CA2498 /* IBVar(Extension).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBVar(Extension).swift"; sourceTree = "<group>"; };
 		2F44C2B91FA01F0500E4D30B /* Pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F44C2BC1FA01F0500E4D30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				2F44C30A1FA0346200E4D30B /* Extension */,
+				2F24B9261FAABC1A00245358 /* CommonEnum.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				2F44C30C1FA0355300E4D30B /* UIColor(Extension).swift in Sources */,
 				2F44C2BF1FA01F0500E4D30B /* ViewController.swift in Sources */,
 				2F44C2BD1FA01F0500E4D30B /* AppDelegate.swift in Sources */,
+				2F24B9271FAABC1A00245358 /* CommonEnum.swift in Sources */,
 				2F44C3121FA0AC0300E4D30B /* UIImage(Extension).swift in Sources */,
 				2F435B3B1FA9ECAD00CA2498 /* IBVar(Extension).swift in Sources */,
 				2F24B9251FAAA3E300245358 /* API.swift in Sources */,
