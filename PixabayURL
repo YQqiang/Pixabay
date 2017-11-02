@@ -1,0 +1,124 @@
+https://pixabay.com/         							// baseURL
+
+------------------------------------------------------------------------------------------
+
+分类: 单选
+https://pixabay.com/zh/photos/?cat=transportation    	// 分类 = 交通运输
+
+https://pixabay.com/zh/photos/?cat=business				// 分类 = 商业/金融
+
+https://pixabay.com/zh/photos/?cat=travel				// 分类 = 旅游度假
+
+https://pixabay.com/zh/photos/?cat=feelings 			// 分类 = 表情
+
+https://pixabay.com/zh/photos/?cat=industry 			// 分类 = 产业/技术
+
+https://pixabay.com/zh/photos/?cat=places	 			// 分类 = 地点/坐标
+
+https://pixabay.com/zh/photos/?cat=science	 			// 分类 = 科学/技术
+
+https://pixabay.com/zh/photos/?cat=computer 			// 分类 = 计算机/沟通
+
+https://pixabay.com/zh/photos/?cat=people	 			// 分类 = 人物
+
+https://pixabay.com/zh/photos/?cat=religion 			// 分类 = 宗教
+
+https://pixabay.com/zh/photos/?cat=fashion	 			// 分类 = 美妆/时尚
+
+https://pixabay.com/zh/photos/?cat=sports	 			// 分类 = 运动
+
+https://pixabay.com/zh/photos/?cat=animals	 			// 分类 = 动物
+
+https://pixabay.com/zh/photos/?cat=buildings 			// 分类 = 建筑
+
+https://pixabay.com/zh/photos/?cat=backgrounds 			// 分类 = 背景/花纹
+
+https://pixabay.com/zh/photos/?cat=music	 			// 分类 = 音乐
+
+https://pixabay.com/zh/photos/?cat=health	 			// 分类 = 医学/健康
+
+https://pixabay.com/zh/photos/?cat=education 			// 分类 = 教育
+
+https://pixabay.com/zh/photos/?cat=nature	 			// 分类 = 自然风景
+
+https://pixabay.com/zh/photos/?cat=food		 			// 分类 = 食物/饮料
+
+------------------------------------------------------------------------------------------
+
+类型: 单选
+?image_type=all				// 所有图像(默认不传也可以)
+
+?image_type=photo 			// 照片
+
+?image_type=vector			// 矢量图
+
+?image_type=illustration	// 插画
+
+例: https://pixabay.com/zh/photos/?image_type=photo&cat=food
+
+------------------------------------------------------------------------------------------
+
+排序: 单选
+&order=latest				// 最新
+
+&order=popular				// 热门
+
+&order=ec 					// 小编精选
+
+例: https://pixabay.com/zh/photos/?image_type=all&order=ec&cat=food
+
+------------------------------------------------------------------------------------------
+
+// 方向: 单选
+							// 任意方位(即为空, 不传)
+
+&orientation=horizontal 	// 水平
+
+&orientation=vertical		// 垂直
+
+例: https://pixabay.com/zh/photos/?image_type=all&orientation=horizontal&order=ec&cat=food
+
+------------------------------------------------------------------------------------------
+
+尺寸: 可任意输入尺寸
+?min_width=320&min_height=480	//尺寸任意输入
+
+https://pixabay.com/zh/photos/?min_width=320&min_height=480&image_type=photo&order=ec&cat=food
+
+------------------------------------------------------------------------------------------
+
+颜色: 可意义组合查询
+&colors=transparent						// 透明
+&colors=grayscale						// 黑与白
+&colors=red								// 红色
+&colors=orange							// 橘色
+&colors=yellow							// 黄色
+&colors=green							// 绿色
+&colors=turquoise						// 蓝绿色
+&colors=blue							// 蓝色
+&colors=lilac							// 淡紫色
+&colors=pink							// 粉色
+&colors=white							// 白色
+&colors=gray 							// 灰色
+&colors=black 							// 黑色
+&colors=brown 							// 棕色
+
+例: https://pixabay.com/zh/photos/?min_width=320&min_height=480&colors=blue&colors=lilac&image_type=photo&cat=food&order=ec
+
+------------------------------------------------------------------------------------------
+
+搜索: 任意输入
+&q=iPhone 								// iPhone
+
+例: https://pixabay.com/zh/photos/?hp=&image_type=&cat=&min_width=&min_height=&q=iPhone&order=ec
+例子: https://pixabay.com/zh/photos/?q=iPhone+X&hp=&image_type=&cat=&min_width=&min_height=
+
+------------------------------------------------------------------------------------------
+
+
+
+
+// 注: 视屏处理不在此版本计划中
+
+https://pixabay.com/zh/videos/list/?q=&order=popular	// 视屏
+

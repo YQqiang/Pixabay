@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 设置线程睡眠时间(即启动页显示时间)
+        Thread.sleep(forTimeInterval: TimeInterval.init(2))
         return true
     }
 
