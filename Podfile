@@ -6,14 +6,14 @@ inhibit_all_warnings!
 
 target "Pixabay" do
     pod 'Kingfisher'
-    pod 'Kanna', :git => 'https://github.com/tid-kijyun/Kanna.git', :branch => 'feature/v4.0.0'
+    pod 'Kanna'
     pod 'SnapKit'
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'Moya/RxSwift'
     pod 'ObjectMapper'
     pod 'Reveal-SDK','~>4', :configurations => ['Debug']
-    
+
     # 配置第三方库编译语言版本
 #    post_install do |installer|
 #        installer.pods_project.targets.each do |target|
